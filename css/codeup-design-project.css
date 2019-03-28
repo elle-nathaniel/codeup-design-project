@@ -1,14 +1,36 @@
-@media only screen and (min-width: 540px) {
+* {
+    font-family: Anton , sans-serif;
+}
+body {
+    background-color: #F0F0F0;
+}
+@media only screen and (min-width: 541px) {
 
-    .carousel, .snowman-attack-small {
+    .carousel, .snowman-attack-small, .navbar-small {
         display: none;
     }
 }
 
 
-@media only screen and (max-width:541px) {
+@media only screen and (max-width:540px) {
 
-    .gallery-fun {
+    .gallery-fun, .navbar-bigger-than-small {
         display: none;
     }
+}
+.jumbotron {
+    background-color: white;
+
+}
+.img-fluid {
+    position: relative;
+}
+.dot {
+    float: right;
+    height: 25px;
+    width: 25px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    font-weight: bold;
+    display: inline-block;
 }
