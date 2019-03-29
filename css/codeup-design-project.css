@@ -1,16 +1,19 @@
-* {
-    font-family: Anton , sans-serif;
-    box-sizing: border-box;
-}
-
 :root {
+    --background-color: #F0F0F0; /*Light gray*/
     --dot-color-1: #E6563B; /*RED*/
     --dot-color-2: #EB9D3A; /*ORANGE*/
     --dot-color-3: #7db06d; /*GREEN*/
     --dot-color-4: #00ABA9; /*TEAL*/
 }
+
 body {
-    background-color: #F0F0F0;
+    font-family: Anton , sans-serif;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+}
+
+header {
+    font-family: Abel
 }
 
 .jumbotron {
@@ -48,6 +51,11 @@ body {
 .tiny-font {
     font-size: 10px;
     text-align: center;
+    color: black;
+}
+
+.figure-caption {
+    color: black;
 }
 
 
