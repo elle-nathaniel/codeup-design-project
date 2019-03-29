@@ -1,5 +1,6 @@
 * {
     font-family: Anton , sans-serif;
+    box-sizing: border-box;
 }
 
 :root {
@@ -62,8 +63,11 @@ body {
 
 .large-dot-font {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
+    line-height: 99px;
+    font-weight: normal;
+    border: solid white 6px;
 }
 
 .large-dot-1 {
