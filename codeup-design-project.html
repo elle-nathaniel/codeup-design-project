@@ -16,7 +16,8 @@
         <div class="icon img-fluid">
             <img src="img/logo.png"  width="105px" alt="teal circular logo with floaty papers">
         </div>
-        <nav class="navbar-bigger-than-small">
+        <nav class="d-none d-sm-block
+navbar-bigger-than-small">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
                     <a class="nav-link" href="#">SERVICES</a>
@@ -36,7 +37,7 @@
 
     <h3>codeup design</h3>
 
-    <nav class="navbar-small">
+    <nav class="navbar-small d-block d-sm-none">
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link" href="#">SERVICES</a>
@@ -55,16 +56,15 @@
 
 </header>
 
-<!-----Container with the things in it-------->
-<div>git
+
+<div> <!-----Container with the things in it-------->
 
     <h1>VISUAL DESIGN & WEB DEVELOPMENT</h1>
     <h3>FROM PARK CITY, UTAH</h3>
 
     <div class="row">
         <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
-            <div class="rounded-circle">
-                <h3>DESIGN</h3>
+            <span class="large-dot large-dot-font dot-1"><p class="tiny-font">DESIGN</p></span>
             </div>
         </div>
         <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -86,11 +86,11 @@
 
 <hr> <!-- Line Break for later styling -->
 
-    <h7 class="snowman-attack-small">SELECTED WORK</h7>
+    <h7 class="selected-work d-block d-sm-none">SELECTED WORK</h7>
 
     <!---Carousel for small display----->
 
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel d-block d-sm-none slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/apple-ipad.jpg" class="d-block w-100" alt="green apples on black apple laptop">
@@ -117,15 +117,19 @@
     <div>
         <p>FEATURED PRODUCT</p>
     </div>
-    <div>
-        <span class="dot"><p>D</p></span>
+    <div class="carousel-dots d-block d-sm-none">
+        <span class="dot dot-1"><p class="tiny-font">D</p></span>
+        <span class="dot dot-2"><p class="tiny-font">D</p></span>
+        <span class="dot dot-3"><p class="tiny-font">S</p></span>
+        <span class="dot dot-4"><p class="tiny-font">H</p></span>
     </div>
 
    <!-----END CAROUSEL DISPLAY!---->
 
     <!----- Larger display columns------>
 
-    <div class="row gallery-fun">
+    <div class="row d-none d-sm-block
+gallery-fun">
         <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
             <p>FEATURED PRODUCT</p>
             <div class="rounded-circle"><p>DEVELOP</p>

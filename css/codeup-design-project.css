@@ -1,23 +1,17 @@
 * {
     font-family: Anton , sans-serif;
 }
+
+:root {
+    --dot-color-1: #E6563B; /*RED*/
+    --dot-color-2: #EB9D3A; /*ORANGE*/
+    --dot-color-3: #7db06d; /*GREEN*/
+    --dot-color-4: #00ABA9; /*TEAL*/
+}
 body {
     background-color: #F0F0F0;
 }
-@media only screen and (min-width: 541px) {
 
-    .carousel, .snowman-attack-small, .navbar-small {
-        display: none;
-    }
-}
-
-
-@media only screen and (max-width:540px) {
-
-    .gallery-fun, .navbar-bigger-than-small {
-        display: none;
-    }
-}
 .jumbotron {
     background-color: white;
 
@@ -25,12 +19,62 @@ body {
 .img-fluid {
     position: relative;
 }
+
+
+/* SMALL DOT STYLING FOR UNDER IMAGES*/
 .dot {
-    float: right;
-    height: 25px;
-    width: 25px;
-    background-color: #E6563B;
+    /*float: right;*/
+    height: 18px;
+    width: 18px;
     border-radius: 50%;
     font-weight: bold;
     display: inline-block;
+}
+
+.dot-1 {
+    background-color: var(--dot-color-1);
+}
+.dot-2 {
+    background-color: var(--dot-color-2);
+}
+.dot-3 {
+    background-color: var(--dot-color-3);
+}
+.dot-4 {
+    background-color: var(--dot-color-4);
+}
+
+.tiny-font {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+/*LARGE DOT STYLING FOR small to extra large screens*/
+
+.large-dot {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.large-dot-font {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.large-dot-1 {
+    background-color: var(--dot-color-1);
+}
+.large-dot-2 {
+    background-color: var(--dot-color-2);
+}
+.large-dot-3 {
+    background-color: var(--dot-color-3);
+}
+.large-dot-4 {
+    background-color: var(--dot-color-4);
 }
