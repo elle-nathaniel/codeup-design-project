@@ -117,3 +117,22 @@ a {
 .large-dot-4 {
     background-color: var(--dot-color-4);
 }
+
+.last-image {
+    width: 60px;
+    float:left;
+    clear:left;
+}
+
+.logo-left {
+    float:left;
+    clear: left;
+}
+
+.last-headline {
+    text-align:left;
+}
+
+.text-left {
+    text-align:left;
+}
