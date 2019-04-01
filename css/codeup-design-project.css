@@ -17,10 +17,7 @@ body {
 header, .abel-font {
     font-family: Abel, sans-serif;
 }
-h1, h2, h3, h7 {
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+
 a {
     color: black;
 }
@@ -35,10 +32,22 @@ a {
     height: 57px;
     margin-top: 50px;
 }
-@media screen and (min-width: 540px){
-.not-small-jumby{
-    text-align: none;
+@media screen and (min-width: 576px){
+h1, h2, h3, h7{
+    margin-top: 1em;
+    margine-bottom: 1em;
 }
+}
+@media screen and (max-width: 575px) {
+    .not-small-jumby, {
+   position: absolute;
+    }
+    .magic-navbar-please{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
 }
 
 .img-center-please {
@@ -141,7 +150,7 @@ a {
 }
 
 .last-paragraph {
-    float-left;
+    float: left;
 }
 
 .text-left {
