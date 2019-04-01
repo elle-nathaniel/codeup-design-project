@@ -119,20 +119,52 @@ a {
 }
 
 .last-image {
+    margin:1em;
     width: 60px;
     float:left;
-    clear:left;
 }
 
 .logo-left {
+    width: 30px;
+    margin:1em;
     float:left;
-    clear: left;
+
+}
+
+.last-img-headline {
+    float:left;
+    clear:both;
 }
 
 .last-headline {
     text-align:left;
 }
 
+.last-paragraph {
+    float-left;
+}
+
 .text-left {
     text-align:left;
+}
+
+.figure-img {
+
+    width: 200px;
+    margin: 10px;
+
+}
+
+.left-header {
+    text-align:left;
+}
+
+.twitter-junk {
+    float:left;
+    clear:both;
+}
+
+#macbook-sucks {
+    break-after: auto;
+    padding:0;
 }
